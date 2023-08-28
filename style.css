@@ -1,0 +1,123 @@
+*
+{
+margin: 0px;
+padding: 0px;
+}
+body
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("bg.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 900;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+section
+{
+ background-color:rgb(16,18,19) ; 
+ border-radius: 25px;
+ height: 87%;
+ width: 50%;
+}
+.marpad
+{
+margin: 2px;
+padding: 2px;
+
+}
+input
+{
+    font-size: 1.5rem; 
+}
+select,button
+{
+    font-size: 1.5rem;
+}
+.width
+{
+    width: 100%;
+}
+select
+{
+text-align: center;
+}
+#center
+{
+    display: flex;
+    justify-content: center;
+}
+#aligen3row
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#area-code
+{
+    width: 20%;
+}
+#phonenumber
+{
+    width: 75%;
+}
+input[type=text],input[type=email],input[type=phone],select,button
+{
+    border-radius: 10px;
+    background-color:rgba(229, 229, 229, 0.737);  
+}
+label,span
+{
+    color: rgb(0, 255, 0);
+}
+input[type=radio]
+{
+    width: 40px;
+    margin:8px;
+}
+button:hover
+{
+background-color: yellow;
+box-shadow: 7px 7px 8px 8px rgb(0, 255, 0);
+color: orangered;
+}
+.icons
+{
+    width: 20px;
+    height: 20px;
+    font-size: 1.5rem;
+}
+.fa-google,.fa-facebook,.fa-twitter,.fa-github,.fa-linkedin,.fa-yahoo,.fa-apple
+{
+    font-size: 1.8rem;
+    padding: 10px;
+   cursor: pointer;
+   border-radius: 100%;
+}
+button
+{
+    cursor: pointer;
+}
+.fa-google,.fa-facebook,.fa-twitter,.fa-github,.fa-linkedin,.fa-yahoo,.fa-apple:hover{
+    background-color: black;
+}
+input[type=text],input[type=email],input[type=phone],select,button:hover
+{
+    border:1px solid blue;
+}
+#h1 h1:hover
+{
+    color: rgb(0, 255, 0);
+box-shadow: 10px 10px 10px 8px  rgba(229, 229, 229, 0.737);
+}
+section:hover
+{
+    
+    box-shadow: 7px 7px 8px 8px rgba(229, 229, 229, 0.737);
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration form</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    </head>
+    <body>
+        <div id="h1"style="margin-right: 20px; font-size:2rem;color:orange; font-family: 'Gill Sans', sans-serif;">
+            <h1>SIMPLE </h1>
+            <h1> REGISTARTION</h1>
+            <h1>FORM</h1>
+        </div>
+        <section>
+            <form action="">
+            <div class="marpad">
+                <label for="username">Name</label><br>        
+                <input style="width: 48%;" type="text"  name="firstname" placeholder="First name">
+                <input style="width: 49%;" type="text"   name="lastname"  placeholder="Last name">
+            </div>
+            <div class="marpad">
+                <label for="collegename">College Name</label><br>
+                <input type="text" id="collegename" name="collegename" class="width">
+            </div>
+            <div class="marpad">
+                <label for="gender">Gender</label><br>
+                <div id="aligen3row">
+                    <span><input type="radio" name="gender" value="male">Male</span>
+                    <span><input type="radio" name="gender" value="female">Female</span>
+                    <span><input type="radio" name="gender" value="other">Other</span>
+                </div> 
+            </div>
+            <div class="marpad">
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email" class="width" >
+            </div>
+            <div class="marpad">
+                <label for="phone">Phone</label><br>
+                <input type="phone" id="area-code"name="accesscode" placeholder="Area Code">
+                <input type="phone" name="phone number" id="phonenumber"placeholder="Phone Number" style="width:77%">
+            </div>
+            <div class="marpad" style="margin-top: 20px;">
+                <select name="" id="" class="width">
+                    <option value="">Choose the Course</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Android App Development">Android App Development</option>
+                    <option value="Full Stack Web Development">Full Stack Web Development</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="Data Science">Data Science</option>
+                    <option value="Blockchain">Blockchain</option>
+                    <option value="Cloud Computing">Cloud Computing</option>
+                </select>
+            </div>            
+            <div class="marpad" id="center" style="margin-top: 20px;">
+                <button style="border: 1px solid blue;">Register</button>
+            </div>
+            <p style="text-align: center;"> <span>Or Sign up with</span></p>
+           
+            <div  style="display:flex;align-items:center;justify-content:space-around;">
+                
+                <i  class="fa-brands fa-twitter fa-beat" style="color:rgb(36,158,240);background-color: white;"></i>
+                <i  class="fa-brands fa-google" style="background-color: red;color:white"></i>
+                <i  class="fa-brands fa-github"></i>
+                <i  class="fa-brands fa-linkedin" style="background-color: rgb(18,107,196);"></i>
+                <i  class="fa-brands fa-yahoo" style="background-color: white;color:rgb(127,8,156) ;"></i>
+                <i  class="fa-brands fa-apple" style="color: rgb(8,8,8);background-color:rgb(255,255,255)" ></i>
+            </div>
+            </form>            
+        </section>
+    </body>
+</html>
